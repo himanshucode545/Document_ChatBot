@@ -111,7 +111,6 @@ npm start
 
 ### 📦 Dependencies
 
-## 📦 Project Dependencies
 
 ### 🖥️ Backend
 
