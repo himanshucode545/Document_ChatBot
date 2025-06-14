@@ -111,25 +111,32 @@ npm start
 
 ### 📦 Dependencies
 
-## Backend
+## 📦 Project Dependencies
+
+### 🖥️ Backend
+
+| Package               | Purpose                                           |
+|-----------------------|---------------------------------------------------|
+| `fastapi`             | Web framework for building APIs                   |
+| `uvicorn`             | ASGI server for serving FastAPI apps              |
+| `transformers`        | Hugging Face models (e.g., BART for summarization)|
+| `sentence-transformers` | Semantic search embeddings (e.g., MiniLM)     |
+| `chromadb`            | Lightweight vector database for document chunks   |
+| `PyPDF2`              | Extract text from PDF files                       |
+| `pdf2image`           | Convert PDFs to images (for OCR)                  |
+| `pytesseract`         | OCR library for scanned/image documents           |
+| `Pillow`              | Image processing for OCR                          |
+
 ---
-fastapi
-uvicorn
-transformers
-sentence-transformers
-chromadb
-PyPDF2
-pdf2image
-pytesseract
-Pillow
 
+### 💻 Frontend
 
+| Package     | Purpose                                 |
+|-------------|-----------------------------------------|
+| `react`     | Frontend library for UI rendering       |
+| `axios`     | HTTP client for making API requests     |
+| `tailwindcss` | Utility-first CSS framework           |
 
-## Frontend
----
-react
-axios
-tailwindcss
 
 
 ## 📥 Clone This Repository
