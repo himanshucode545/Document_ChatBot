@@ -111,28 +111,34 @@ npm start
 
 ### 📦 Dependencies
 
-# Backend
+## Backend
+---
 fastapi
-
 uvicorn
-
 transformers
-
 sentence-transformers
-
 chromadb
-
 PyPDF2
-
 pdf2image
-
 pytesseract
-
 Pillow
+---
 
-# Frontend
+
+## Frontend
+---
 react
-
 axios
-
 tailwindcss
+---
+
+## 📥 Clone This Repository
+
+To copy this repository to your local machine, run the following commands in your terminal:
+
+```bash
+# Clone the repository
+git clone https://github.com/himanshucode545/Document_ChatBot.git
+
+# Navigate into the project directory
+cd Document_ChatBot
