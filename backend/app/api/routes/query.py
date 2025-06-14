@@ -1,5 +1,5 @@
 """
-query_router.py
+query.py
 
 This module defines an API endpoint for processing user queries against document embeddings
 stored in ChromaDB. It uses semantic search to find the most relevant document chunks 
