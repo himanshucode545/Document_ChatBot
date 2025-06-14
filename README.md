@@ -122,7 +122,7 @@ PyPDF2
 pdf2image
 pytesseract
 Pillow
----
+
 
 
 ## Frontend
@@ -130,7 +130,7 @@ Pillow
 react
 axios
 tailwindcss
----
+
 
 ## 📥 Clone This Repository
 
