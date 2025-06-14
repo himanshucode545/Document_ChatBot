@@ -4,37 +4,6 @@ An AI-powered chatbot system that allows users to upload documents (PDFs or imag
 
 ---
 
-## Project Structure
-document-chatbot/
-│
-├── backend/ # FastAPI-based backend
-│ ├── main.py # FastAPI app entry point
-│ ├── routers/
-│ │ ├── upload.py # Endpoint for document upload and text extraction
-│ │ ├── query.py # Endpoint for answering queries based on uploaded content
-│ │ └── theme.py # Endpoint for summarizing document themes
-│ ├── services/
-│ │ ├── ocr_service.py # OCR and text chunking logic
-│ │ ├── vector_store.py # Embedding, ChromaDB storage, and semantic search
-│ │ └── theme.py # LLM-based theme summarizer (Hugging Face model)
-│ └── chroma_db/ # Persistent vector store (auto-created)
-│
-├── frontend/ # React-based frontend
-│ ├── src/
-│ │ ├── App.js # Main React layout with components
-│ │ └── components/
-│ │ ├── FileUploader.js # Handles file upload
-│ │ ├── QueryBox.js # Lets user ask questions
-│ │ └── ThemeViewer.js # Displays summarized themes
-│ └── public/ # Static files and assets
-│
-├── requirements.txt # Python backend dependencies
-└── README.md # This file
-
-
-
----
-
 ## LLM & Tech Stack
 
 ### Semantic Search
@@ -64,7 +33,7 @@ Uploads a document (PDF, JPG, PNG, etc.), extracts its text (using OCR if needed
   "chunks": 18
 }
 ```
-### 2. `/query/` [POST]
+### 2. `/query/` [GET]
 Accepts a user query, searches the embedded chunks using vector similarity, and returns relevant matches.
 
 **Request**:
@@ -86,7 +55,7 @@ Accepts a user query, searches the embedded chunks using vector similarity, and 
 
 ```
 
-### 3. `/theme/` [POST]
+### 3. `/theme/` [GET]
 Accepts a user query, searches the embedded chunks using vector similarity, and returns relevant matches.
 
 **Request**:
