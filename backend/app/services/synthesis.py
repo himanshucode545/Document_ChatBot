@@ -1,5 +1,5 @@
 """
-theme_summarizer.py
+synthesis.py
 
 This module provides functionality to summarize themes from a list of document chunks
 using Hugging Face's summarization pipeline (BART-Large-CNN model).
