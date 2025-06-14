@@ -144,7 +144,7 @@ To copy this repository to your local machine, run the following commands in you
 
 ```bash
 # Clone the repository
-git clone https://github.com/himanshucode545/himanshu-shukla/wasserstoff/AiInternTask
+git clone https://github.com/himanshucode545/wasserstoff_AiInternTask
 
 # Navigate into the project directory
 cd Document_ChatBot
